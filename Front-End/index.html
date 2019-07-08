@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Maashaven</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>MS Maashaven</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#Description">Description</a></li>
+          <li><a href="#Game">Trivia Game</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Welcome to Maashaven</h1>
+    </div>
+  </section>
+
+
+  <section id="divide">
+  </section>
+
+
+  <section id="boxes">
+    <div class="box">
+      <a name="Description"></a>
+      <h3>Description</h3>
+      <p> The station was constructed on February 9, 1968. The station is very high and has a fairly impressive structure. <br>The station hall "floats" above the street level, directly below the platforms. Exits connect the hall directly with the tram stop. <br>Two lifts, which were not part of the original design of the station and were installed later, lead directly from the platforms to the street.<p>
+    <div>
+    <section id="boxes">
+      <div class="box">
+        <h3>Transport</h3>
+        <p> The Rotterdam metro station Maashaven is a station of line D and line E located on a viaduct at the end of the Maashaven on the south bank of the Nieuwe Maas. <br> You can change to tram line 2 at Maashaven station.<p>
+      <div>
+
+<a name="Game"></a>
+<h1> Trivia Game</h1>
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">In what year was the station constructed?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is the name of the mall that is a stop away?</p>
+<input id = "textbox" type = "text" name = "question2">
+
+<p class = "questions">Who is the major of Rotterdam?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Ahmed Aboutaleb"> Ahmed Aboutaleb<br>
+<input type = "radio" id = "mc" name = "question3" value = "Femke Halsema"> Femke Halsema<br>
+<input type = "radio" id = "mc" name = "question3" value = "Wouter Kolff"> Wouter Kolff<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
