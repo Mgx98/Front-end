@@ -18,7 +18,7 @@ function check(){
 	}
 
 	var pictures = ["img/Ri.gif", "img/k.gif", "img/l.gif"];
-	var messages = ["Great job!", "That's whatever", "You really need to do better"];
+	var messages = ["Good job", "That's okay, I guess", "Oh no"];
 	var score;
 
 	if (correct == 0) {
@@ -36,6 +36,6 @@ function check(){
 	document.getElementById("after_submit").style.visibility = "visible";
 
 	document.getElementById("message").innerHTML = messages[score];
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+	document.getElementById("total_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
 	}

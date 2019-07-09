@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="container">
-      <div id="branding">
+      <div id="name">
         <h1>MS Maashaven</h1>
       </div>
       <nav>
@@ -27,7 +27,7 @@
   </header>
 
 
-  <section id="showcase">
+  <section id="tracks">
     <div class="container">
       <h1>Welcome to Maashaven</h1>
     </div>
@@ -37,23 +37,26 @@
   <section id="divide">
   </section>
 
-  <div class="call-outs-container">
-    <div class="call-out">
+  <div class="boxs-container">
+    <div class="box">
         <a name="Description"></a>
       <h3>Description</h3>
       <p>The station was constructed on February 9, 1968. The station is very high and has a fairly impressive structure. The station hall "floats" above the street level, directly below the platforms. Exits connect the hall directly with the tram stop. Two lifts, which were not part of the original design of the station and were installed later, lead directly from the platforms to the street.</p>
     </div>
 
-    <div class="call-out">
+    <div class="box">
       <h3>Transport</h3>
       <p>The Rotterdam metro station Maashaven is a station of line D and line E located on a viaduct at the end of the Maashaven on the south bank of the Nieuwe Maas.  You can change to tram line 2 at Maashaven station.</p>
     </div>
 
-    <div class="call-out">
+    <div class="box">
       <h3>Project</h3>
       <p>To make the station the station a bit more interesting I will be putting up QR-codes around the station which will take you to a trivia game. Down here you will see an example of the game.</p>
     </div>
   </div>
+
+  <section id="divide">
+  </section>
 
 <a name="Game"></a>
 <h1> Trivia Game</h1>
@@ -73,13 +76,13 @@
 <input type = "radio" id = "mc" name = "question3" value = "Wouter Kolff"> Wouter Kolff<br>
 
 
-<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
 
 
 </form>
 
 <div id = "after_submit">
-<p id = "number_correct"></p>
+<p id = "total_correct"></p>
 <p id = "message"></p>
 <img id = "picture">
 </div>
