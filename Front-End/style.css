@@ -18,7 +18,10 @@ header{
 }
 
 
-
+#img {
+	width: 375px;
+	height: 245px;
+}
 header a {
   color:#ffffff;
   text-decoration: none;
@@ -130,15 +133,12 @@ input {
 	float: left;
 	margin-left: 20px;
 	font-size: 30px;
-
-
 }
 
 #picture {
 	width: 375px;
 	height: 245px;
 }
-
 
 
 #mc {
