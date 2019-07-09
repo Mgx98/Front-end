@@ -135,7 +135,11 @@ input {
 	margin-top: 15px;
 }
 
-
+.map {
+  width: 90%;
+  max-width: 900px;
+  height: 50vh;
+}
 
 #button:hover {
 	background: white;
